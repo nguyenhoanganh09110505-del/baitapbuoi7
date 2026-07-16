@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 700px;
+    height: 450px;
+    border: 2px;
+
+    display: flex;
+    justify-content: center; /*căn giữa theo chiều ngang*/
+    align-items: center; /*căn giữa theo chiều dọc*/
+    
+    margin: 50px auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: bold;
+}
